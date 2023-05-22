@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div class="container">
+            <div class="card bg-primary m-auto mt-5 text-center w-75"
+                style="display: flex; justify-content: center;">
+                <div class="container bg-white m-auto my-5 w-75 h-75 rounded px-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="mt-5">Register</h3>
+                            <p class="my-3 ">Create your account.It's free and only take a minute</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <form action="" class="mb-5" onsubmit="registerNow()">
+                                <div class="row">
+                                    <div class="col-6"><input type="text" placeholder="First Name"
+                                            class="w-100 py-2 p-2 my-3 border border-secondary rounded" id="firstName"
+                                            required>
+                                    </div>
+                                    <div class="col-6"><input type="text" placeholder="Last Name"
+                                            class="w-100 py-2 ps-2 my-3 border border-secondary rounded" id="lastName"
+                                            required>
+                                    </div>
+                                    <div class="col-12"><input type="email" placeholder="Email"
+                                            class="w-100 py-2 ps-2 my-3 border border-secondary rounded mt-3" id="email"
+                                            required>
+                                    </div>
+                                    <div class="col-12 text-start"><input type="password" placeholder="Password"
+                                            class="w-100 py-2 ps-2 my-3 border border-secondary rounded mt-3"
+                                            id="password" required>
+                                            <input type="checkbox" onclick="myFunction()"><span class="ms-2">Show Password</span>
+                                    </div>
+                                    <div class="col-12 text-start"><input type="password" placeholder="Confirm Password"
+                                            class="w-100 py-2 ps-2 my-3 border border-secondary rounded mt-3"
+                                            id="confirmPassword" required>
+                                    </div>
+                                    <div class="col-12 d-flex">
+                                        <input type="checkbox" id="checkbox" value="yes" required>
+                                        <p class="mt-3 ps-2 my-3">I accept the Terms of Use & Private Policy</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-success w-100 text-light mt-3 mb-5 rounded-pill"
+                                            onclick="registerNow()">Register
+                                            Now</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <span class="text-center text-light">Already have an account?
+                            <a href="login.html" class="text-light">Login</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

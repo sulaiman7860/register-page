@@ -1,0 +1,14 @@
+$primary: #118ab2;
+$white: #e0fbfc;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body  {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #000;
+}
+main {
+    flex:1 0 auto;
+    display: flex;
+}
